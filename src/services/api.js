@@ -43,10 +43,10 @@ export async function scanTicket({token}) {
 }
 
 export async function getOccupiedSeats(eventId) {
-    try {
+  try {
     const { data } = await http.get(`/events/${eventId}/occupied`)
     return data
-    } catch {
+  } catch {
     return { occupied: [] }
-    }
+  }
 }

@@ -24,20 +24,20 @@ export default function Events() {
 
     return (
     <div className="grid gap-6 md:grid-cols-2">
-        {items.map(ev => (
+      {items.map(ev => (
         <Card key={ev._id} className="p-0 overflow-hidden">
-            <img src={ev.imageUrl} alt={ev.title} className="w-full h-48 object-cover" />
-            <div className="p-6">
+          <img src={ev.imageUrl} alt={ev.title} className="w-full h-48 object-cover" />
+          <div className="p-6">
             <h2 className="text-lg font-semibold">{ev.title}</h2>
             <p className="opacity-80 text-sm mb-2">{new Date(ev.date).toLocaleString()}</p>
             <p className="opacity-80 text-sm mb-4">{ev.venue}</p>
             <div className="flex items-center justify-between">
-                <span className="font-semibold">${ev.price?.toLocaleString('es-MX')}</span>
-                <Link to={`/events/${ev._id}`} className="btn btn-primary">Ver detalles</Link>
+              <span className="font-semibold">${ev.price?.toLocaleString('es-MX')}</span>
+              <Link to={`/events/${ev._id}`} className="btn btn-primary">Ver detalles</Link>
             </div>
-            </div>
+          </div>
         </Card>
-        ))}
+      ))}
     </div>
-    )
+  )
 }
