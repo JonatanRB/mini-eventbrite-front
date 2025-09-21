@@ -1,12 +1,20 @@
-# React + Vite
+🎟️ Sistema de Venta de Tickets para Eventos
+📌 Descripción del Proyecto
+Este proyecto consiste en el desarrollo de una página web para la venta de boletos para eventos, que permitirá a los usuarios:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ver la lista de eventos disponibles.
+Seleccionar fechas y asientos.
+Comprar boletos de manera segura.
+Generar QR con los datos del boleto.
+El proyecto será desarrollado en colaboración con el/la sensei y en equipo, siguiendo una dinámica de trabajo iterativa en la que se implementarán nuevas funciones semanalmente.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👥 Dinámica de Trabajo
+Modalidad: Trabajo en equipo en colaboración directa con el/la sensei.
+Días de trabajo: Martes y jueves se dedicarán a implementar nuevas funciones y mejoras.
+Metodología: Se trabajará de forma incremental, agregando características y refinando el sistema en cada iteración.
+Comunicación: Las decisiones se discutirán en conjunto con el/la sensei antes de cada nueva fase de desarrollo.
+🛠️ Tecnologías a Utilizar
+Frontend: React con TailwindCSS
+Backend: Node.js
+Base de Datos: MongoDB y Supabase
+Control de Versiones: Git y GitHub para gestión colaborativa del código
